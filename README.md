@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# 🚀 Meu Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Código, energético e um pouquinho de CSS.
 
-Currently, two official plugins are available:
+Este é o meu cantinho na web onde mostro um pouco do que sei fazer. Nada de firulas exageradas — só React, alguns componentes legais, e uma pitada de personalidade.  
+Explore com calma, tem coisa boa por aqui. 😉
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Feito com:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ **React** + **TypeScript**
+- 🎨 **Tailwind CSS** (porque escrever `margin-left: 8px` é coisa do passado)
+- ⚡ **Vite**, para uma estrutura leve e moderna
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📂 Organização (não tá 100%, mas tá indo):
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `src/components` – os bloquinhos reutilizáveis
+- `src/pages` – cada parte do site
+- `src/assets` – imagens e arquivos visuais
+- `src/index.css` – onde o Tailwind entra na dança
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## 🧪 Rodando localmente
+
+Quer fuçar no código? Fique à vontade:
+
+```bash
+git clone https://github.com/marcos-valle/my-portfolio
+cd my-portfolio
+npm install
+npm run dev
