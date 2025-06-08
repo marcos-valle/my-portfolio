@@ -1,5 +1,5 @@
-import Profile from '../../../../../public/Profile.jpeg';
-import Logo from '../../../../../public/Logo.png';
+import Profile from '../../../../assets/Profile.jpeg';
+import Logo from '../../../../assets/Logo.png';
 
 const Hero = () => {
   

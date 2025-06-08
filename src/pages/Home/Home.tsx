@@ -2,7 +2,7 @@ import Experiences from "./sections/Experiences/Experiences";
 import Hero from "./sections/Hero/Hero";
 import Projects from "./sections/Projects/Projects";
 import Skills from "./sections/Skills/Skills";
-import Bg from "../../../public/Bg.png";
+import Bg from "../../assets/Bg.png";
 
 const Home = () => {
   
