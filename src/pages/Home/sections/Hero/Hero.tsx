@@ -20,7 +20,7 @@ const Hero = () => {
         <h1 className = "text-5xl font-bold text-center mb-1 mt-3">Marcos do Valle!</h1>
         
         <div id='hero-description' className='flex flex-row'>
-          <h2 className="text-center text-lg font-semibold">Eu programo com foco e{" "}
+          <h2 className="text-center text-lg text-gray-300 font-semibold">Eu programo com foco e{" "}
             <span className="bg-gradient-to-r from-violet-600 to-orange-400 bg-clip-text text-transparent">estilo</span>
             {" "}🍿
           </h2>
