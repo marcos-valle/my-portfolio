@@ -13,15 +13,15 @@ const FooterSection = () => {
           <a href="https://github.com/marcos-valle" className='w-10' id='github-link'>
             <img src={Github} alt="" className='' />
           </a>
-          <a href="https://linkedin.com/in/marcos-do-valle" className='w-10' id='github-link'>
+          <a href="https://linkedin.com/in/marcos-do-valle" className='w-10' id='linkedin-link'>
             <img src={Linkedin} alt="" className='' />
           </a>
-          <a href="https://linkedin.com/in/marcos-do-valle" className='w-10' id='github-link'>
+          <a href="https://instagram.com/valle.marcos/" className='w-10' id='instagram-link'>
             <img src={Instagram} alt="" className='' />
           </a>
         </div>
 
-      <p className="text-gray-400 text-xs">Copyright © Marcos do Valle · 2025</p>
+      <p className="text-gray-400 text-xs">Feito com 💜 por Marcos do Valle · © 2025</p>
       <p className="text-gray-400 text-xs">Desenvolvido com React.js, Typescript e Tailwind CSS. Deploy com Vercel.</p>
     </section>
     

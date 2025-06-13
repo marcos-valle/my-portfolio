@@ -1,4 +1,7 @@
-import Code from '../../../../assets/Code.png';
+import Blog from '../../../../assets/blog.png';
+import Gastos from '../../../../assets/gastos.png';
+import Crud from '../../../../assets/crud.png';
+import Tech from '../../../../assets/tech.png';
 
 const Projects = () => {
   
@@ -14,31 +17,31 @@ const Projects = () => {
 
       <div id="projects-content" className="grid grid-cols-1 sm:grid-cols-2 sm:px-10 md:px-20 lg:px-50 xl:px-60 items-center w-full px-10 mt-8">
         <div className="border-1 border-gray-700 rounded-lg p-4 m-4 bg-black text-white">
-          <img src={Code} alt="" className='rounded-md w-full h-30 mb-4' />
-          <h2 className="text-xl font-bold">Projeto 1</h2>
-          <p className="mt-2 text-gray-300">Descrição do projeto 1. Um projeto incrível que faz coisas incríveis.</p>
-          <a href="#" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block">Acessar</a>
+          <img src={Gastos} alt="" className='rounded-md w-full h-38 mb-4' />
+          <h2 className="text-xl font-bold">Gerenciador de Finanças Familiar</h2>
+          <p className="mt-2 text-gray-300">React.js, Typescript, Node.js, MongoDB</p>
+          <a href="https://github.com/marcos-valle/transacoes-frontend" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block hover:bg-violet-950">Acessar</a>
         </div>
         
         <div className="border-1 border-gray-700 rounded-lg p-4 m-4 bg-black text-white">
-          <img src={Code} alt="" className='rounded-md w-full h-30 mb-4' />
-          <h2 className="text-xl font-bold">Projeto 1</h2>
-          <p className="mt-2 text-gray-300">Descrição do projeto 1. Um projeto incrível que faz coisas incríveis.</p>
-          <a href="#" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block">Acessar</a>
+          <img src={Crud} alt="" className='rounded-md w-full h-38 mb-4' />
+          <h2 className="text-xl font-bold">CRUD</h2>
+          <p className="mt-2 text-gray-300">JavaScript, Node.js, PostgreSQL</p>
+          <a href="#" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block hover:bg-violet-950">Acessar</a>
         </div>
         
         <div className="border-1 border-gray-700 rounded-lg p-4 m-4 bg-black text-white">
-          <img src={Code} alt="" className='rounded-md w-full h-30 mb-4' />
-          <h2 className="text-xl font-bold">Projeto 1</h2>
-          <p className="mt-2 text-gray-300">Descrição do projeto 1. Um projeto incrível que faz coisas incríveis.</p>
-          <a href="#" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block">Acessar</a>
+          <img src={Tech} alt="" className='rounded-md w-full h-38 mb-4' />
+          <h2 className="text-xl font-bold">Aprimore Hub</h2>
+          <p className="mt-2 text-gray-300">Dart, Flutter</p>
+          <a href="https://github.com/ifma-techjr/checkin_app" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block hover:bg-violet-950">Acessar</a>
         </div>
         
         <div className="border-1 border-gray-700 rounded-lg p-4 m-4 bg-black text-white">
-          <img src={Code} alt="" className='rounded-md w-full h-30 mb-4' />
-          <h2 className="text-xl font-bold">Projeto 1</h2>
-          <p className="mt-2 text-gray-300">Descrição do projeto 1. Um projeto incrível que faz coisas incríveis.</p>
-          <a href="#" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block">Acessar</a>
+          <img src={Blog} alt="" className='rounded-md w-full h-38 mb-4' />
+          <h2 className="text-xl font-bold">Blog de Filmes</h2>
+          <p className="mt-2 text-gray-300">Ruby on Rails, PostgreSQL</p>
+          <a href="https://github.com/marcos-valle/blog_app" className="border-1 border-gray-700 rounded-md mt-4 w-full text-center text-gray-300 py-1 inline-block hover:bg-violet-950">Acessar</a>
         </div>
 
       </div>

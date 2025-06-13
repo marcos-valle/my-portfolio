@@ -11,9 +11,9 @@ const Home = () => {
 
   return (
 
-    <section className="relative flex-col justify-center w-full">
-      <div className="absolute top-0 left-0 w-full h-full bg-cover bg-center-40 -z-10" style={{ backgroundImage: `url(${Bg})` }} />
-      <div className="relative justify-center z-10">
+    <section id="home" className="relative flex-col justify-center w-full">
+      <div id="bg-site" className="absolute top-0 left-0 w-full h-full bg-cover bg-center -z-10" style={{ backgroundImage: `url(${Bg})` }} />
+      <div id="home-content" className="relative justify-center z-10">
         <HeaderSection />
         <Hero />
         <Skills />
